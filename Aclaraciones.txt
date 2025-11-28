@@ -1,3 +1,6 @@
 Controllers y views es lo que tiene relacion con el cliente es decir, metodos como cambiar descripciones
 o añadir descricpciones a una tarea, asignatura o algo se hace a partir de los controladores
 pero esas funciones estan implementadas tanto dentro de los modelos como los respositorios
+
+
+Me falta trabajar con las interfaces, una interfaz por cada objeto y controladores
