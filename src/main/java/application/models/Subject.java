@@ -3,14 +3,16 @@ package application.models;
 import application.repositories.*;
 
 public class Subject {
+    private int roomId;
     private String name;
     private ChapterList temario;
     private ExamsList exams;
-    private int roomId;
     private AssignmentsList assignmentsList;
+    private Professor professor;
 
-    public Subject(String name, int roomId) {
+    public Subject(String name, Professor professor, int roomId) {
         this.name = name;
+        this.professor = professor;
         this.roomId = roomId;
         this.temario = new ChapterList();
         this.exams = new ExamsList();
@@ -45,6 +47,12 @@ public class Subject {
     }
     public void setAssignmentsList(AssignmentsList assignmentsList) {
         this.assignmentsList = assignmentsList;
+    }
+    public Professor getProfessor() {
+        return professor;
+    }
+    public void setProfessor(Professor professor) {
+        this.professor = professor;
     }
 
 }

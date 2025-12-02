@@ -4,4 +4,6 @@ pero esas funciones estan implementadas tanto dentro de los modelos como los res
 
 
 Controladores: SubjectController contendra a todos los demas controladores asi como 
+a Subject
 
+Saber muy bien que cosas puedo hacer en cada objeto (Examen, Tarea, Profesor...)
