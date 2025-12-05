@@ -34,5 +34,6 @@ public class ExamsList {
     }
     public void editExamState(int id, ExamState newExamState){
         this.examsList.get(id).setExamState(newExamState);
+    }
 }
 
