@@ -44,6 +44,9 @@ public class ExamController {
         LocalDate newDate = getDateFromInput();
         
     }
+    public void hola(){
+        System.out.println("hola");
+    }
 
 
     private String getDescriptionFromInput(){
